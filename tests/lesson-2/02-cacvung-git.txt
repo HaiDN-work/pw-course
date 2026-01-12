@@ -1,0 +1,3 @@
+Answer:
+- file 2 file 3 ở vùng working directory
+- file 1 ở vùng repository

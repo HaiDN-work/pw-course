@@ -1,4 +1,5 @@
 git init: khởi tạo repo local
-git add . : add tất cả các file vào repo
+git add . : add vào staging area
 git add <file name>: add file chỉ định vào repo
-git commit -m"message": ghi lại các thay đổi (checkpoint) kèm message
+git commit -m"message": Tạo commit (đặt tên / mô tả ngắn cho phiên bản) từ các file
+                        trong staging area và lưu vào repository

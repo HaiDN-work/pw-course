@@ -1,0 +1,11 @@
+Bài 1:
+a. /html/body/div/div/form/input
+b. /html/body/div/div/form/button
+c. /html/body/div/div/table/tbody/tr/td[1]
+
+Bài 2:
+a. //input[@placeholder="Số điện thoại"]
+b. //tr[td[text()='Trần Thị Bình']]/td[2]
+c. //tr[td[text()='Lê Hoàng Cường']]/td[3]
+D. //button[@class='btn-register']
+E. //table[@id='resultTable']

@@ -1,7 +1,7 @@
 import { test } from "@playwright/test";
 
-test("has title", async ({ page }) => {
-  await test.step('Truy cập trang', async () => {
+test("Test 3", async ({ page }) => {
+  await test.step('Truy cap trang va di toi bai hoc 3', async () => {
     await page.goto('https://material.playwrightvn.com/');
     await page.locator('//a[@href="03-xpath-todo-list.html"]').click();
   });

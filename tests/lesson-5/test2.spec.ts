@@ -1,9 +1,9 @@
 import { test } from "@playwright/test";
 
-test("has title", async ({ page }) => {
-  await test.step("truy cập trang", async () => {
-    await page.goto("https://material.playwrightvn.com/");
-    await page.locator("//a[@href='02-xpath-product-page.html']").click();
+test("Test 2", async ({ page }) => {
+  await test.step('Truy cập trang va di toi bai hoc 2', async () => {
+    await page.goto('https://material.playwrightvn.com/');
+    await page.locator('//a[@href="02-xpath-product-page.html"]').click();
   });
 
   await test.step('Them san pham vao gio hang', async () => {

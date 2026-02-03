@@ -2,7 +2,7 @@ import { test } from "@playwright/test";
 
 
 test("Test 4", async ({ page }) => {
-  await test.step('Truy cập trang', async () => {
+  await test.step('Truy cap trang va di toi bai hoc 4', async () => {
     await page.goto('https://material.playwrightvn.com/');
     await page.locator('//a[@href="04-xpath-personal-notes.html"]').click();
   });
